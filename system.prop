@@ -89,4 +89,3 @@ ro.device.gpu=PowerVR SGX530
 ro.device.rear_cam=5 MP
 ro.device.front_cam=N/A
 ro.device.screen_res=480x854 
-
