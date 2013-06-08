@@ -16,7 +16,7 @@
 
 TARGET_BOOTANIMATION_NAME := 480
 
-$(call inherit-product-if-exists, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product-if-exists, vendor/cm/config/tiny.mk)
 $(call inherit-product-if-exists, vendor/cm/config/gsm.mk)
 $(call inherit-product, device/moto/mb526/full_jordan.mk)
 
