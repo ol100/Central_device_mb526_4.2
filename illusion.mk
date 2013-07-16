@@ -27,7 +27,7 @@ $(call inherit-product, device/moto/mb526/full_jordan.mk)
 $(call inherit-product, vendor/illusion/config/common_ledflash.mk)
 
 # Inherit device settings
-$(call inherit-product, vendor/illusion/common_defy.mk)
+$(call inherit-product, vendor/illusion/config/common_defy.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/moto/mb526/overlay
 
