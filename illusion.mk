@@ -15,7 +15,7 @@
 #
 
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/slim/config/gsm.mk)
+$(call inherit-product, vendor/illusion/config/gsm.mk)
 
 # Inherit some common slim stuff.
 $(call inherit-product, vendor/illusion/config/common_full_phone.mk)
@@ -27,7 +27,7 @@ $(call inherit-product, device/moto/mb526/full_jordan.mk)
 $(call inherit-product, vendor/illusion/config/common_ledflash.mk)
 
 # Inherit device settings
-$(call inherit-product, vendor/slim/illusion/common_defy.mk)
+$(call inherit-product, vendor/illusion/illusion/common_defy.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/moto/mb526/overlay
 
