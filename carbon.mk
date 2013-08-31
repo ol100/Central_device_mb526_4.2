@@ -19,6 +19,7 @@
 $(call inherit-product, vendor/carbon/config/common_phone.mk)
 $(call inherit-product, vendor/carbon/config/common_gsm.mk)
 $(call inherit-product, device/moto/mb526/full_jordan.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/moto/mb526/overlay
 
